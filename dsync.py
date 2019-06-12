@@ -8,7 +8,6 @@ import subprocess
 
 
 def confirm_dir(snapDir):
-    
     confirm=input(f"Are you sure you will sync directory from remote server into {snapDir} (y/n):")
     if confirm not in ['y','Y','n','N']:
         confirm_dir(snapDir)

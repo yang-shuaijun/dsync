@@ -7,7 +7,6 @@ import subprocess
 import re
 
 def confirm_dir(snapDir):
-    
     confirm=input(f"Are you sure you will sync {snapDir} to remote(y/n):")
     if confirm not in ['y','Y','n','N']:
         confirm_dir(snapDir)
